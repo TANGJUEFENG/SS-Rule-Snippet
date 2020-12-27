@@ -64,7 +64,7 @@ function modifyWeatherResp(weatherRespBody, aqicnRespBody) {
 	return JSON.stringify(weatherRespJson)
 }
 
-$httpClient.get(`https://api.waqi.info/feed/geo:${lat};${lng}/?token=${aqicnToken}`, function (error, _response, data) {
+$httpClient.get(`https://api.waqi.info/feed/geo:${lat};${lng}/?token=${a750367122c1591e110fbdf27de747bddbe933da}`, function (error, _response, data) {
 	if (error) {
 		$done({})
 	} else {
